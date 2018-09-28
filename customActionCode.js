@@ -45,7 +45,7 @@ filename = "ThingsBoardTimeSeriesCSV"// Nome do arquivo CSV para download
 
 
 function DownloadCSV(csvString, fileName) {
-	//tanks to https://stackoverflow.com/a/24922761
+	//thanks to https://stackoverflow.com/a/24922761
     var blob = new Blob([csvString], {
         type: 'text/csv;charset=utf-8'
     });
